@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="mobile.css">
+        <link rel="stylesheet" href="tablette.css">
+        <link rel="stylesheet" href="tablette-landscape.css">
+        <script src="https://kit.fontawesome.com/159d0e16c5.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"> 
+        <title>Crea'Piks</title>
+        <meta name="description" content="Développement web et conception graphique" />
+        <meta name="keywords" content="concetion graphique, dev, web, développement web, dev web, web-design, communication visuelle, identité graphique, PAO" />
+        <script defer src="tools.js"></script>
+        <script defer src="script.js"></script>
+        </script>
+        <link rel="shortcut icon" type="image/png" href="assets/favicon.png"/>
+    </head>
+<body>
+
+    <header>
+    </header>
+
+<div class="contact">
+    <section class="index-section-1">
+        <h1>Développeuse web & Graphiste indépendante</h1>
+        <article class="index-article-1">
+        <div>
+            <h2>Crea'Piks</h2>
+            <h3>Développement web & conception graphique</h3>
+            <p class="color">Pour toute demande de devis, vous recevrez par mail sous 24h plusieurs propositions personnalisées adaptées à votre demande et à votre budget.</p>
+            <p>Si vous souhaitez avoir davantage d’informations concernant mes <a href="prestations.html"><b>prestations</b></a>, n’hésitez pas à me contacter par téléphone, par e-mail ou directement via le formulaire du site. </p>
+        </div>
+        <div class="img">
+            <div class="ecran-infos">
+                <div>
+            <p><i class="fas fa-map-marker-alt"></i> Moselle (57970)</p>
+            <p><i class="fas fa-phone-alt"></i> 06 95 79 89 03</p>
+            <p><i class="fas fa-envelope-open"></i> <a href="mailto:infos@creapiks.net">infos[at]creapiks.net</a></p>
+        </div>
+            </div>
+            <img src="assets/contact-ecran.png" alt="Identité visuelle, web-design, mise en page...">
+        </div>
+        </article>
+    </section>
+
+    <section class="contact-section-2">
+        <img src="assets/contact-email.png" alt="Formulaire de contact">
+        <h2>Parlez-moi de votre projet</h2>
+        <h3>Formulaire de contact</h3>
+        <article>
+
+
+            <form class="modal">
+            <div id="modal-content">
+            <div class="prenom-container">
+            <label for="prenom">Votre prénom <i>*</i></label>
+            <input  type="text" id="prenom" autocomplete="off" placeholder="Exemple : Travis"> 
+            <span class="error"></span>
+            </div>
+
+            <div class="nom-container">
+            <label for="nom">Votre nom <i>*</i></label>
+            <input  type="text" id="nom" autocomplete="off" placeholder="Exemple : Barker">
+            <span class="error"></span>
+            </div>
+            
+            <div class="email-container">
+            <label for="email">Votre adresse e-mail <i>*</i></label>
+            <input  type="text" id="email" autocomplete="off" placeholder="Exemple : travisbarker1975@adresse.com">
+            <span class="error"></span>
+            </div>
+
+                
+            <div class="telephone-container">
+                <label for="telephone">Votre numéro de téléphone <i>*</i></label>
+                <input  type="text" id="telephone" autocomplete="off" placeholder="0600000000">
+                <span class="error"></span>
+                </div>
+
+                <div class="projet-container">
+                    <label for="projet">Présentation de votre projet <i>*</i></label>
+                    <textarea id="projet" autocomplete="off" placeholder="Je suis fleuriste et je voudrais un logo pour ma nouvelle boutique."></textarea>
+                    <span class="error"></span>
+                    </div>
+
+                    <div class="budget-container">
+                        <label for="budget">Votre budget</label>
+                        <input  type="text" id="budget" autocomplete="off" placeholder="Entre 300 et 600 euros">
+                        <span class="error"></span>
+                        </div>
+
+                        <label class="title captcha" for="number">Captcha <span>*</span> : <img src="assets/captcha.png" alt="Captcha"></label>
+                        <input name="number" id="number" required="required" pattern="182" placeholder="293" title="Captcha obligatoire" autocomplete="off">
+
+            <span class="empty"></span>
+            <span class="validation"></span>
+            <div class="envoyer">
+            <input type="submit" value="Envoyer" id="submit" class="submit">
+            </div>
+            </div>
+            
+              </form>
+              
+    </article>
+    </section>
+
+
+    <section class="index-section-3">
+        <h2 id="stages">Stages</h2>
+        <h3 id="stages">Informations</h3>
+        <article>
+        <p>Actuellement, <b>Crea'Piks</b> n'accueille PAS de nouveaux stagiaires.</p>
+        <p>Aucune candidature ne sera étudiée.</p>
+        <span>
+            <a href="https://www.aidostage.com/stage/liste" target="_blank"><img src="assets/stage.png" alt="Stage"></a>
+        <a href="https://www.aidostage.com/stage/liste" target="_blank">aidostage.com</a>
+        <p>Petit tip !</p>
+        <p>Sur aidostage.com, tu peux trouver une multitude d'offres sur la région Grand-Est dans la catégorie "Multimédia - Infographie" !</p>
+    </span>
+    </article>
+    </section>
+
+</div>
+
+    <footer>
+    </footer>
+</body>
+</html>
